@@ -9,6 +9,12 @@ form {
     background-color: white;
     padding: 1rem 1rem;
     border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
 }
 
 input {
@@ -17,11 +23,23 @@ input {
     display: block;
     margin-bottom: 0.5rem;
     box-sizing: border-box;
+    font: inherit;
+    border: 1px solid rgb(186, 182, 182);
+    padding: 0.2rem;
+    color: rgb(61,58,58);
+
+}
+
+input:focus {
+    background-color: rgb(219,190,253);
+    color: rgb(32,5, 63);
+    /* border-color: rgb(32,5, 63); */
 }
 
 button {
     height: 1.5rem;
     display: block;
+    font: inherit;
     
 }
 

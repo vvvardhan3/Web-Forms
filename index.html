@@ -4,11 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <form action="/" method="get">
-      <input type="text" name="User-Name" />
+      <label for="UserName"> Your Name </label>
+      <input type="text" name="User-Name" id="UserName" />
+      <label for="UserEmail">Your Email Address</label>
+      <input type="email" name="User-Email" id="UserEmail">
+      <label for="UserAge">Your Age</label>
+      <input type="number" name="User-Age" id="UserAge">
+      <label for="UserDOB">Date Of Birth</label>
+      <input type="date" name="User-DOB" id="UserDOB">
+      <label for="UserPassword">Password</label>
+      <input type="password" name="User-Password" id="UserPassword">
       <button>Submit</button>
     </form>
   </body>
